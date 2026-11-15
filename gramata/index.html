@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="lv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>AI risinājumu praktiskā pavārgrāmata · Tanediq</title>
+<meta name="description" content="Edija Tanona grāmata par to, kā no idejas un datiem nonākt līdz drošam, pārbaudītam AI risinājumam. Drīzumā Jāņa Rozes grāmatnīcās.">
+<link rel="canonical" href="https://tanediq.com/gramata/">
+<meta property="og:type" content="book">
+<meta property="og:title" content="AI risinājumu praktiskā pavārgrāmata · Edijs Tanons">
+<meta property="og:description" content="No idejas un datiem līdz drošam, pārbaudītam AI risinājumam. Drīzumā Jāņa Rozes grāmatnīcās.">
+<meta property="og:url" content="https://tanediq.com/gramata/">
+<meta property="og:image" content="https://tanediq.com/assets/cover.jpg">
+<meta property="og:locale" content="lv_LV">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="../assets/tanediq.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="../" aria-label="tanediq.com sākumlapa">tanediq</a>
+    <nav class="links" aria-label="Lapas sadaļas">
+      <a href="../">tanediq.com</a>
+      <a href="#gramata">Grāmata</a>
+      <a href="#receptes">Receptes</a>
+      <a href="#iegade">Iegāde</a>
+      <a href="#autors">Autors</a>
+      <a href="#sadarbiba">Sadarbība</a>
+    </nav>
+    <a class="btn btn-primary" href="#sadarbiba">Sazināties</a>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero" id="gramata" aria-labelledby="hero-title">
+    <canvas id="net" aria-hidden="true"></canvas>
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <span class="eyebrow"><span class="chip">Drīzumā</span> Jauna grāmata · 2026</span>
+        <h1 id="hero-title"><span class="ai">AI</span> risinājumu praktiskā pavārgrāmata</h1>
+        <span class="flag" aria-hidden="true"></span>
+        <p class="lede"><strong>No idejas un datiem līdz drošam, pārbaudītam AI risinājumam.</strong> Praktiska rokasgrāmata uzņēmumiem, publiskajam sektoram un AI projektu komandām: kā izvēlēties pieeju, sagatavot datus, novērtēt kvalitāti, ievērot AI Act un GDPR un nonākt līdz reālai ekspluatācijai.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="#iegade">Drīzumā grāmatnīcās
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          <a class="btn btn-ghost" href="#sadarbiba">Tikšanās, apmācības, projekti</a>
+        </div>
+        <div class="meta">
+          <span>Autors <b>Edijs Tanons</b></span>
+          <span>ISBN <b>978-9934-38-841-5</b></span>
+          <span>Valoda <b>latviešu</b></span>
+        </div>
+      </div>
+      <div class="cover-wrap">
+        <img class="cover" src="../assets/cover.jpg" alt="Grāmatas vāks: AI risinājumu praktiskā pavārgrāmata. No idejas līdz drošam AI pakalpojumam. Edijs Tanons." width="620" height="991">
+      </div>
+    </div>
+  </section>
+
+  <div class="principle">
+    <div class="wrap">
+      <span class="mark" aria-hidden="true">“</span>
+      <blockquote>Vispirms izvēlies vienkāršāko tehnoloģiju, kas spēj uzticami atrisināt konkrēto problēmu.
+        <cite>GRĀMATAS PAMATPRINCIPS · PRIEKŠVĀRDS</cite></blockquote>
+    </div>
+  </div>
+
+  <section aria-labelledby="kam-title">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">Kam šī grāmata</span>
+        <h2 id="kam-title">Rakstīta tiem, kam jāpieņem lēmumi, ne tikai programmētājiem</h2>
+        <p>Saruna par AI pārāk bieži sākas ar jautājumu “Kādu modeli izvēlēties?”. Grāmata sāk ar biznesa problēmu, datiem un to, kā objektīvi izmērīt, vai risinājums strādā.</p>
+      </div>
+      <div class="aud">
+        <div><b>Uzņēmumu vadītāji</b><span>Kad AI ir vajadzīgs, cik tas maksā un kā novērtēt atdevi.</span></div>
+        <div><b>Valsts pārvalde</b><span>Droša AI ieviešana, AI Act riska līmeņi un GDPR prasības.</span></div>
+        <div><b>IT direktori</b><span>Infrastruktūra, modeļu izvēle, mākonis vai sava GPU vide.</span></div>
+        <div><b>Projektu un produktu vadītāji</b><span>No pilotprojekta līdz ekspluatācijai un mērogošanai.</span></div>
+        <div><b>Datu speciālisti</b><span>Datu gatavība, novērtēšana, red teaming un monitorings.</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section aria-labelledby="cels-title" style="padding-top:0">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">Universālais AI risinājuma ceļš</span>
+        <h2 id="cels-title">Astoņi posmi, kurus iziet gandrīz katrs AI projekts</h2>
+        <p>Neatkarīgi no tā, vai būvējat dokumentu asistentu, video analītiku vai AI aģentu. Grāmata katru posmu apskata atsevišķi.</p>
+      </div>
+      <ol class="path">
+        <li><b>PROBLĒMA</b><span>Kuru konkrēto problēmu risinām un kā mērīsim rezultātu.</span></li>
+        <li><b>DATI</b><span>Vai dati ir gatavi AI un kā tos sagatavot.</span></li>
+        <li><b>PIEEJA</b><span>Uzvedne, RAG, pielāgošana vai klasisks ML modelis.</span></li>
+        <li><b>PROTOTIPS</b><span>Mazākais strādājošais risinājums ar reāliem datiem.</span></li>
+        <li><b>NOVĒRTĒŠANA</b><span>AI kvalitātes mērījumi pirms lēmuma ieviest.</span></li>
+        <li><b>DROŠĪBA</b><span>Red teaming, guardrails, AI Act un GDPR.</span></li>
+        <li><b>IEVIEŠANA</b><span>Ekspluatācijas arhitektūra un dokumentācija.</span></li>
+        <li><b>MONITORINGS</b><span>Novērojamība, kvalitātes uzraudzība un uzlabojumi.</span></li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="receptes" aria-labelledby="rec-title" style="padding-top:0">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">IV daļa · AI receptes</span>
+        <h2 id="rec-title">Septiņas receptes ar arhitektūru, sastāvdaļām un soļiem</h2>
+        <p>Grāmata veidota kā pavārgrāmata. Ja ideja jau ir, var sākt uzreiz ar atbilstošo recepti.</p>
+      </div>
+      <div class="recipes">
+        <article class="recipe">
+          <span class="no">RECEPTE #01</span>
+          <h3>Uzņēmuma dokumentu AI asistents</h3>
+          <p>Atbild uz darbinieku jautājumiem no organizācijas dokumentiem un parāda avotu (RAG).</p>
+          <div class="chain">DOCUMENTS<i>→</i>CHUNKING<i>→</i>EMBEDDINGS<i>→</i>RETRIEVAL<i>→</i>LLM<i>→</i>ANSWER + SOURCES</div>
+        </article>
+        <article class="recipe">
+          <span class="no">RECEPTE #02</span>
+          <h3>Datorredze</h3>
+          <p>Kameru un attēlu analīze: defekti, drošības ekipējums, objektu skaitīšana, numura zīmes.</p>
+          <div class="chain">CAMERA<i>→</i>FRAME<i>→</i>MODEL<i>→</i>DETECTION<i>→</i>BUSINESS RULE<i>→</i>ALERT</div>
+        </article>
+        <article class="recipe">
+          <span class="no">RECEPTE #03</span>
+          <h3>AI balss aģents</h3>
+          <p>Klientu apkalpošana, rezervācijas un helpdesk pa tālruni, kur aizture ir kritiska.</p>
+          <div class="chain">CALLER<i>→</i>SPEECH-TO-TEXT<i>→</i>AI AĢENTS<i>→</i>RĪKI<i>→</i>TEXT-TO-SPEECH</div>
+        </article>
+        <article class="recipe">
+          <span class="no">RECEPTE #04</span>
+          <h3>Document AI</h3>
+          <p>Rēķini, līgumi un veidlapas pārvērsti strukturētos datos un nodoti ERP sistēmai.</p>
+          <div class="chain">DOCUMENT<i>→</i>OCR / VISION<i>→</i>CLASSIFICATION<i>→</i>EXTRACTION<i>→</i>VALIDATION<i>→</i>ERP</div>
+        </article>
+        <article class="recipe">
+          <span class="no">RECEPTE #05</span>
+          <h3>Prognozējošais AI</h3>
+          <p>Klientu aizplūšana, iekārtu bojājumi, pārdošanas apjomi. Bieži bez LLM.</p>
+          <div class="chain">VĒSTURISKIE DATI<i>→</i>FEATURES<i>→</i>APMĀCĪBA<i>→</i>VALIDĀCIJA<i>→</i>PROGNOZE</div>
+        </article>
+        <article class="recipe">
+          <span class="no">RECEPTE #06</span>
+          <h3>AI aģents</h3>
+          <p>AI, kas ne tikai atbild, bet dara: CRM, līgumi, piedāvājumi ar kontrolētām tiesībām.</p>
+          <div class="chain">LIETOTĀJS<i>→</i>LLM<i>→</i>PLĀNS<i>→</i>RĪKI<i>→</i>API<i>→</i>REZULTĀTS</div>
+        </article>
+        <article class="recipe">
+          <span class="no">RECEPTE #07</span>
+          <h3>LLM pielāgošana</h3>
+          <p>Kad fine-tuning ir jēgpilns, kad labāk izvēlēties RAG un kā pielāgot pamatmodeli.</p>
+          <div class="chain">BASE MODEL<i>→</i>DATU KOPA<i>→</i>FINE-TUNING<i>→</i>NOVĒRTĒŠANA</div>
+        </article>
+        <article class="recipe more">
+          <span class="no">PIELIKUMI A–H</span>
+          <h3>Praktiskā AI rīku kaste</h3>
+          <p>Datu gatavības pārbaudes lapa, lietojuma gadījuma kanva, datu kopas un modeļa pase, risku matrica, AI terminu vārdnīca.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section aria-labelledby="saturs-title" style="padding-top:0">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">Saturs</span>
+        <h2 id="saturs-title">Desmit daļas, 25 nodaļas un 7 receptes</h2>
+      </div>
+      <div class="parts">
+        <div class="part"><span class="num">I</span><div><b>Pirms sākt būvēt</b><span>Kas ir AI risinājums, kuru pieeju izvēlēties, AI projekta anatomija.</span></div></div>
+        <div class="part"><span class="num">II</span><div><b>Dati: AI galvenā izejviela</b><span>Datu gatavība, sagatavošana, apmācības, validācijas un testa kopas.</span></div></div>
+        <div class="part"><span class="num">III</span><div><b>Modeļi un infrastruktūra</b><span>Modeļa izvēle, kur AI darbināt, NVIDIA AI tehnoloģiju karte.</span></div></div>
+        <div class="part"><span class="num">IV</span><div><b>AI receptes</b><span>RAG, datorredze, balss aģents, Document AI, prognozes, aģenti, fine-tuning.</span></div></div>
+        <div class="part"><span class="num">V</span><div><b>Kā pārbaudīt, vai AI strādā</b><span>Kvalitātes novērtēšana, red teaming, drošības barjeras.</span></div></div>
+        <div class="part"><span class="num">VI</span><div><b>No prototipa līdz ekspluatācijai</b><span>Arhitektūra, novērojamība un monitorings, projekta dokumentācija.</span></div></div>
+        <div class="part"><span class="num">VII</span><div><b>AI Act un drošs AI</b><span>Kā noteikt AI sistēmas risku, GDPR un AI.</span></div></div>
+        <div class="part"><span class="num">VIII</span><div><b>MIC / AI Latvia Sandbox</b><span>Kad nākt uz regulatīvo smilškasti, AI Solution Readiness Assessment.</span></div></div>
+        <div class="part"><span class="num">IX</span><div><b>No sandbox līdz tirgum</b><span>Pilotprojekts, ceļš līdz ekspluatācijai, mērogošana un eksports.</span></div></div>
+        <div class="part"><span class="num">X</span><div><b>Praktiskie rīki</b><span>AI projekta kalkulators, infrastruktūras izmērs, projekta komanda.</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="buy" id="iegade" aria-labelledby="buy-title">
+    <div class="wrap buy-grid">
+      <div class="sec-head" style="margin:0">
+        <span class="eyebrow">Iegāde · drīzumā</span>
+        <h2 id="buy-title">Drīzumā iegādājama Jāņa Rozes grāmatnīcās</h2>
+        <p>Grāmata tiek gatavota izdošanai un drīzumā būs nopērkama Jāņa Rozes grāmatnīcās visā Latvijā. Uzrakstiet autoram, ja vēlaties saņemt ziņu, kad tā būs pieejama, vai iegādāties vairākus eksemplārus komandai vai pasākumam.</p>
+        <div class="cta-row" style="margin-top:6px">
+          <a class="btn btn-primary write" data-subject="Paziņot, kad grāmata iznāks" href="#sadarbiba">Paziņot, kad iznāks</a>
+          <a class="btn btn-ghost" href="https://www.janisroze.lv" target="_blank" rel="noopener">Jāņa Rozes grāmatnīcas
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+        </div>
+      </div>
+      <div class="buy-card">
+        <span class="chip">Drīzumā grāmatnīcās</span>
+        <span class="store">AI risinājumu praktiskā pavārgrāmata</span>
+        <dl class="spec">
+          <dt>Autors</dt><dd>Edijs Tanons</dd>
+          <dt>Izdevējs</dt><dd>Edijs Tanons, 2026</dd>
+          <dt>ISBN</dt><dd>978-9934-38-841-5</dd>
+          <dt>UDK</dt><dd>004.8(03)</dd>
+          <dt>Valoda</dt><dd>latviešu</dd>
+        </dl>
+        <p class="muted" style="font-size:var(--t-xs)">Regulējuma informācija (AI Act, GDPR, MIC speciālā regulatīvā vide) atbilst stāvoklim 2026. gada oktobrī.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="autors" aria-labelledby="autors-title">
+    <div class="wrap author-grid">
+      <div class="author-side">
+        <div class="monogram" aria-hidden="true">ET</div>
+        <div class="sec-head" style="margin:0">
+          <span class="eyebrow">Par autoru</span>
+          <h2 id="autors-title">Edijs Tanons</h2>
+          <p>Tehnoloģijas, bizness un praktiska AI ieviešana</p>
+        </div>
+        <ul class="facts">
+          <li><b>20+</b><span>gadu pieredze Latvijas un starptautiskajā IT nozarē</span></li>
+          <li><b>IBM</b><span>vadījis IBM biznesu Latvijā; vadoši amati arī LG Electronics</span></li>
+          <li><b>Datakom</b><span>inovāciju direktors: AI risinājumi, privāta AI infrastruktūra, HPC</span></li>
+          <li><b>IT klasteris</b><span>Latvijas IT klastera padomes loceklis</span></li>
+        </ul>
+      </div>
+      <div class="bio">
+        <p>Edijs Tanons ir tehnoloģiju un biznesa attīstības vadītājs, kura darbs vienmēr bijis saistīts ar divām pasaulēm: tehnoloģijām un biznesu.</p>
+        <p>Profesionālās karjeras laikā viņš strādājis ar uzņēmumu digitālo transformāciju, datu analītiku, infrastruktūru un jaunu tehnoloģiju ieviešanu. Par biznesa analītiku un datu izmantošanu viņš publiski runājis jau IBM Watson laikā, un šobrīd strādā ar nākamās paaudzes AI infrastruktūru, modeļiem un uzņēmumu AI ieviešanas projektiem.</p>
+        <p>Datakom viņš attīsta jaunus tehnoloģiju un biznesa virzienus, sākot no uzņēmumu un valsts organizāciju AI risinājumiem līdz privātai AI infrastruktūrai, augstas veiktspējas skaitļošanai un praktiskai ģeneratīvā AI ieviešanai.</p>
+        <p>Zināšanas papildinājis University of Illinois Urbana-Champaign, University of Pennsylvania un University of Virginia programmās: stratēģiskā vadība, finanšu pārvaldība, dizaina domāšana un AI praktiskā izmantošana.</p>
+        <blockquote class="quote">Svarīgākais nav tas, cik daudz mākslīgā intelekta mēs Latvijā patērējam. Svarīgākais ir, cik daudz zināšanu, tehnoloģiju un produktu mēs paši spējam radīt un eksportēt.
+          <cite>NO NODAĻAS “KĀPĒC ŠĪ GRĀMATA?”</cite></blockquote>
+      </div>
+    </div>
+  </section>
+
+  <section id="sadarbiba" aria-labelledby="sad-title" style="padding-top:0">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">Sadarbība</span>
+        <h2 id="sad-title">Satiksimies, apmācīsim komandu vai kopā izveidosim jūsu AI projektu</h2>
+        <p>Uzrakstiet pāris teikumus par savu ideju vai vajadzību, un vienosimies par laiku tikšanās reizei.</p>
+      </div>
+      <div class="offers">
+        <article class="offer">
+          <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M8 2v4M16 2v4M3 10h18"/></svg></span>
+          <h3>Tikšanās</h3>
+          <ul>
+            <li>AI iespēju saruna jūsu organizācijai</li>
+            <li>Lekcija vai uzstāšanās pasākumā</li>
+            <li>Grāmatas prezentācija komandai</li>
+          </ul>
+          <a class="write" data-subject="Tikšanās" href="#">Pieteikt tikšanos →</a>
+        </article>
+        <article class="offer">
+          <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 8l10-5 10 5-10 5z"/><path d="M6 10.5V16c0 1.5 3 3 6 3s6-1.5 6-3v-5.5"/></svg></span>
+          <h3>Apmācības</h3>
+          <ul>
+            <li>Vadītājiem: kā izvēlēties un novērtēt AI projektu</li>
+            <li>Komandām: dati, receptes, novērtēšana</li>
+            <li>AI Act un GDPR praktiskā piemērošana</li>
+          </ul>
+          <a class="write" data-subject="Apmācības" href="#">Pieteikt apmācības →</a>
+        </article>
+        <article class="offer">
+          <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.6 2.6-2.4-.6-.6-2.4z"/></svg></span>
+          <h3>Palīdzība projektā</h3>
+          <ul>
+            <li>Idejas un datu gatavības novērtējums</li>
+            <li>Pieejas, modeļa un infrastruktūras izvēle</li>
+            <li>Pilotprojekts un ceļš līdz ekspluatācijai</li>
+          </ul>
+          <a class="write" data-subject="Palīdzība AI projektā" href="#">Aprakstīt projektu →</a>
+        </article>
+      </div>
+      <div class="contact">
+        <div class="contact-card">
+          <span class="label">E-pasts</span>
+          <span class="value" id="email">Edijs.Tanons@datakom.lv</span>
+          <div class="row">
+            <button class="btn btn-primary" id="copy-email" type="button">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></svg>
+              Kopēt adresi</button>
+            <a class="btn btn-ghost" id="mail-link" href="mailto:Edijs.Tanons@datakom.lv">Rakstīt e-pastu</a>
+            <span class="copied" id="copied" role="status" aria-live="polite"></span>
+          </div>
+        </div>
+        <div class="contact-card">
+          <span class="label">LinkedIn</span>
+          <span class="value">Edijs Tanons</span>
+          <div class="row">
+            <a class="btn btn-primary" id="linkedin" href="https://www.linkedin.com/search/results/people/?keywords=Edijs%20Tanons" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.5h4V21H3zM9.5 9.5h3.8v1.6h.06c.53-1 1.83-2.06 3.77-2.06 4.03 0 4.77 2.65 4.77 6.1V21h-4v-5.1c0-1.22-.02-2.79-1.7-2.79-1.7 0-1.96 1.33-1.96 2.7V21h-4z"/></svg>
+              Sazināties LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Edijs Tanons · <a href="../">tanediq.com</a></span>
+    <span>ISBN 978-9934-38-841-5</span>
+  </div>
+</footer>
+<script src="../assets/tanediq.js"></script>
+</body>
+</html>

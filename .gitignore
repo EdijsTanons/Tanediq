@@ -1,0 +1,6 @@
+# Lokālie piekļuves faili — nekad necommitot
+*token*.txt
+.credentials
+Thumbs.db
+desktop.ini
+.DS_Store
