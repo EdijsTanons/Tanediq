@@ -220,7 +220,8 @@ a.work:hover{border-color:var(--accent);transform:translateY(-2px)}
 .brand{display:inline-flex;align-items:center;color:var(--fg)}
 .brand .logo{display:block;height:30px;width:auto}
 .logo-g{fill:var(--brand)}
-.hero-mark{justify-self:center;width:min(300px,100%);color:var(--fg)}
+.hero-mark{justify-self:center;width:min(300px,100%);color:var(--fg);display:grid;justify-items:center;gap:22px}
+.tagline{font-family:var(--f-mono);font-size:var(--t-xs);letter-spacing:.24em;text-transform:uppercase;color:var(--muted);text-align:center;white-space:nowrap}
 .hero-mark .logo-mark{display:block;width:100%;height:auto;filter:drop-shadow(0 0 40px var(--glow))}
 .home-hero .hero-grid{grid-template-columns:minmax(0,1.25fr) minmax(0,.75fr)}
-@media (max-width:860px){.home-hero .hero-grid{grid-template-columns:1fr}.hero-mark{order:-1;width:120px;justify-self:start}}
+@media (max-width:860px){.home-hero .hero-grid{grid-template-columns:1fr}.hero-mark{order:-1;width:120px;justify-self:start;justify-items:start;gap:10px}.tagline{font-size:.62rem;letter-spacing:.16em}}
