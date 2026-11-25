@@ -1,10 +1,10 @@
-# Tanediq
+# TanEdiQ
 
 Edija Tanona vietne [tanediq.com](https://tanediq.com), publicēta ar GitHub Pages.
 
 | Ceļš | Saturs |
 |---|---|
-| `/` | Tanediq sākumlapa: darbi, par mani, kontakti |
+| `/` | TanEdiQ sākumlapa: darbi, par mani, kontakti |
 | `/gramata/` | *AI risinājumu praktiskā pavārgrāmata* (ISBN 978-9934-38-841-5) |
 | `/assets/` | Kopīgais stils (`tanediq.css`), skripts (`tanediq.js`) un attēli |
 
@@ -15,11 +15,11 @@ Tad pievieno tās adresi `sitemap.xml` un atjauno `lastmod` datumu, lai meklēt�
 
 - `sitemap.xml` un `robots.txt` ir saknē; galvenā adrese ir `https://tanediq.com/` (www pāradresē uz to).
 - Katrai lapai ir `<title>`, `description`, `canonical` un Open Graph dati.
-- Strukturētie dati (JSON-LD): sākumlapā WebSite, Organization (Tanediq) un Person (Edijs Tanons); grāmatas lapā Book (ISBN 9789934388415) un BreadcrumbList.
+- Strukturētie dati (JSON-LD): sākumlapā WebSite, Organization (TanEdiQ) un Person (Edijs Tanons); grāmatas lapā Book (ISBN 9789934388415) un BreadcrumbList.
 
 ## Logotips
 
-`assets/logo/` satur Tanediq logotipu visos formātos:
+`assets/logo/` satur TanEdiQ logotipu visos formātos:
 
 | Fails | Lietojums |
 |---|---|
